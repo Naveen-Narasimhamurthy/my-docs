@@ -14,6 +14,8 @@ I got experience in AWS cloud computing and Snowflake load process.
 * pyspark to process datasets.
 * IAM role creation.
 * EC2-Security Group Creation
+* Writing strong Bucket policy
+* setting up S3 file replication
 
 
 # AWS Services Used:
