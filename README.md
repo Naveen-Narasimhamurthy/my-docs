@@ -1,6 +1,6 @@
 # my-docs
 
-I got experience in AWS cloud computing and Snowflake load process.
+I got experience in AWS cloud computing and Snowflake batch load process.
 
 # Area of Expertise
 * Handling PCI & NPI data.
@@ -13,7 +13,6 @@ I got experience in AWS cloud computing and Snowflake load process.
 * Creating cloud watch events.
 * pyspark to process datasets.
 * IAM role creation.
-* EC2-Security Group Creation
 * Writing strong Bucket policy
 * setting up S3 file replication
 
