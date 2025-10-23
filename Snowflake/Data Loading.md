@@ -13,10 +13,10 @@ snowsql -a account_name -u user_name -d database_name -w warehouse_name -D varia
 password can be set in environment using SNOWSQL_PWD
 
 # Copy into snowflake Stage table
-
+!set variable_substitution=true
 copy into stage_schema.stage_table
 from @external_stage_location
-FILE_FORMAT=(type=csv field_delimiter = ',' ) ON_ERROR=ABORT_STATEMENT TRUNCATECOLUMNS=TRUE;
+FILE_FORMAT=(type=csv field_delimiter = ',' TRIM_SPACE=TRUE ) ON_ERROR=ABORT_STATEMENT TRUNCATECOLUMNS=TRUE;
 
 # Insert into Main table
 
