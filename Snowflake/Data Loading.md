@@ -14,6 +14,7 @@ password can be set in environment using SNOWSQL_PWD
 
 # Copy into snowflake Stage table
 !set variable_substitution=true
+
 copy into stage_schema.stage_table
 from @external_stage_location
 FILE_FORMAT=(type=csv field_delimiter = ',' TRIM_SPACE=TRUE ) ON_ERROR=ABORT_STATEMENT TRUNCATECOLUMNS=TRUE;
